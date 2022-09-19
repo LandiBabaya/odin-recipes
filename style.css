@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(244, 236, 226);
+  padding: 1.5em;
+  font-family: sans-serif;
+}
+
+img {
+  border-radius: 5em;
+}
+
+h1 {
+  color: rgb(180, 88, 22);
+}
+
+h3,
+h1 {
+  text-align: center;
+}
+
+.recipes-cover {
+  height: auto;
+  width: 50%;
+  border-radius: 2em;
+}
+
+.recipe-list-section li {
+  text-align: center;
+}
+
+a {
+  color: darkgreen;
+  font-size: 20px;
+}
+
+/* Recipes Styles */
+header p {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  padding: 1em;
+}
+
+button {
+  padding: 1em;
+  border-radius: 1em;
+  background-color: forestgreen;
+  color: white;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+}
