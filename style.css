@@ -4,7 +4,7 @@ body {
   font-family: sans-serif;
 }
 
-img {
+header img {
   border-radius: 5em;
 }
 
@@ -17,15 +17,38 @@ h1 {
   text-align: center;
 }
 
-.recipes-cover {
-  height: auto;
-  width: 50%;
-  border-radius: 2em;
+.recipe-list-section {
+  height: 100vh;
+}
+
+.recipe-list-section ul {
+  text-align: center;
 }
 
 .recipe-list-section li {
   text-align: center;
+  display: inline-block;
+  margin: 30px;
 }
+
+.recipes-cover {
+  width: 30em;
+  height: 10em;
+  border-radius: 2em;
+  @media (min-width: 690px) {
+    width: 15em;
+    height: auto;
+  }
+}
+
+/* @media (max-width: 599px) {
+  .recipes-cover {
+    height: auto;
+    width: 15em;
+    height: auto;
+    border-radius: 2em;
+  }
+} */
 
 a {
   color: darkgreen;
